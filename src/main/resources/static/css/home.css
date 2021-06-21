@@ -1,0 +1,79 @@
+div.items div {
+  display: none;
+}
+
+div.items div:target {
+  display: block;
+}
+
+.add, #select-filter-data-exo, #select-filter-data-mensu {
+  border: black 1px solid;
+  border-radius: 10px;
+  width: 650px;
+  margin-left: 600px;
+  padding: 20px;
+}
+
+#select-filter-data-exo, #select-filter-data-mensu{
+  position: absolute;
+  top : 80px;
+  left: 170px;
+}
+
+h2{
+  color: red;
+  margin-top: 80px;
+  margin-left: 40%;
+}
+
+.add button{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+#name-list-exo, #select-data-exo, #select-graph-exo, #name-list-mensu, #select-data-mensu, #select-graph-mensu{
+  width: 450px;
+}
+
+#date-data-exo, #date-data-mensu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#rep1-data-exo{
+  margin-top: 15px;
+}
+
+#rep1-data-exo, #rep2-data-exo,#rep3-data-exo,#rep4-data-exo, #poids1-data-exo, #poids2-data-exo, #poids3-data-exo, #poids4-data-exo {
+  text-align: center;
+}
+
+#rep1-data-exo, #rep2-data-exo,#rep3-data-exo,#rep4-data-exo {
+  width: 80px;
+}
+
+#rep2-data-exo,#rep3-data-exo,#rep4-data-exo {
+  margin-top: 15px;
+}
+
+.btn-right{
+  margin-left: 450px;
+  margin-top: -120px;
+}
+
+#draw-graph-exo div, #draw-graph-exo, #draw-graph-mensu div, #draw-graph-mensu{
+  display: block;
+}
+
+#draw-graph-exo, #draw-graph-mensu{
+  width: 2000px; 
+  height: 600px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+th {
+  text-align: center;
+}
